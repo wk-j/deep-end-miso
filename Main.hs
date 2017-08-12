@@ -1,4 +1,4 @@
-
+-- stack runghc --package strict
 -- | Haskell language pragmas
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RecordWildCards   #-}
@@ -8,6 +8,7 @@ module Main where
 
 -- | Miso framework import
 import Miso
+import Miso.String
 
 -- | Type synonym for an application model
 type Model = Int

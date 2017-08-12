@@ -1,4 +1,5 @@
 -- stack runghc --package strict
+
 -- | Haskell language pragmas
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RecordWildCards   #-}
@@ -43,7 +44,7 @@ updateModel SayHelloWorld m = m <# do
 -- | Constructs a virtual DOM from a model
 viewModel :: Model -> View Action
 viewModel x = div_ [] [
-   button_ [ onClick AddOne ] [ text "+" ]
+   button_ [ onClick AddOne ] [ text "++" ]
  , text $ toMisoString (show x)
- , button_ [ onClick SubtractOne ] [ text "-" ]
+ , button_ [ onClick SubtractOne ] [ text "--" ]
  ]

@@ -2,3 +2,4 @@
 .stack-work
 .uuid
 *.hsplay
+node_modules

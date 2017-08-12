@@ -1,5 +1,4 @@
 -- stack runghc --package strict
-
 -- | Haskell language pragmas
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RecordWildCards   #-}
